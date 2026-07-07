@@ -16,8 +16,6 @@ The simulator replicates the standard MIPS execution cycle, breaking down instru
 * **Execution Engine:** Simulates ALU operations, branches, jumps, and data hazard evaluations.
 * **Memory & Register File:** Maintains a robust 32-bit register file state along with data and instruction memory visualization.
 
----
-
 ### 📁 Repository Structure
 
 ```text
@@ -28,7 +26,6 @@ Processor-Simulator/
 ├── docs/            # Technical specifications, ISA guides, and assignment reports
 ├── .gitignore
 └── README.md
-
 
 🚀 Getting Started
 Prerequisites
@@ -47,3 +44,9 @@ Type            Mnemonics
 R-Type          add, sub, and, or, sll, srl, slt
 I-Type          lw, sw, beq, bne, addi, andi, ori
 J-Type          j, jal
+
+---
+
+
+
+
